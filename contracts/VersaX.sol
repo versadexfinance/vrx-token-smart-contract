@@ -9,9 +9,9 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
 contract VersaX is ERC20Burnable {
     /// @notice A constructor that mint the tokens
-    constructor() ERC20("VersaX", "VRX") {
+    constructor() ERC20("VersaX", "VRSX") {
         _mint(
-            0x476b80E71a6dD331D3a0Be3262CEF603E582d5db,
+            0xA225383f631B63b518Ce8919d9b47ebCD30788A5,
             800_000_000 * 10 ** decimals()
         );
     }
